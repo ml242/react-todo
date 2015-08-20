@@ -53,8 +53,6 @@ var TodoApp = React.createClass({
 			todoLists: this.state.todoLists.concat([this.state.todos]),
 			place: this.state.place += 1
 		});
-		console.log(this.state.todoLists)
-		console.log(this.state.place)
 	},
 
     render: function(){
